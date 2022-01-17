@@ -1,0 +1,28 @@
+.message{
+    border: 0.1rem solid black;
+    min-width: 33px;
+    padding: 10px;
+    margin: 4px 4px;
+    position: relative;
+    font-size: large;
+}
+
+
+.received_message{
+    clear: both;
+    background-color: #dadbd3;
+    float: left;
+    margin-right: 100px;
+    margin-left: 10px;
+    border-radius: .7rem .7rem .7rem 0;
+    
+}
+
+.sent_message {
+    clear: both;
+    background-color: pink;
+    float: right;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-radius: .7rem .7rem 0 0.7rem;
+}

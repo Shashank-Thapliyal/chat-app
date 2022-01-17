@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto&family=Ubuntu+Mono:ital@1&family=Ubuntu:ital@1&display=swap');
+
+.chat {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat_container {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    height: 90vh;
+    width: 90vw;
+    border: 1.5px solid black;
+    background-color: white;
+    box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 75%);
+    border-radius: 7px;
+}
+
+
+.chat_header {
+    background-color: crimson;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1.25px solid black;
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.message_box {
+    height: 75%;
+    flex: 1;
+    padding: 30px;
+    overflow-y: scroll;
+}
+
+
+.message_input {
+    height: 15%;
+    border-top: 1.25px solid black;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadbd3;
+
+}
+
+
+.message_input input,
+.message_input button {
+    height: 60%;
+    border: .75px solid black;
+    border-radius: 10px;
+}
+
+
+.message_input input {
+    width: 70%;
+    padding: 10px;
+}
+
+.message_input button {
+    width: 12%;
+    color: black;
+    font-size: 20px;
+
+}
+#userName{
+    height: 50px;
+    width: 100%;
+    border: 2px solid red;    ;
+}
